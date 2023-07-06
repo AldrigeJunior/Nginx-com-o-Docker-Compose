@@ -6,24 +6,40 @@
     <title>Aplicativo em execução</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Courier New', monospace;
+            background-color: #ccff33;
+            color: black;
             margin: 0;
             padding: 20px;
             text-align: center;
         }
 
         h1 {
-            color: #333;
+            color: black;
         }
 
-        p {
-            color: #777;
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
             margin-top: 10px;
         }
+
+        .center-image {
+            display: flex;
+            justify-content: center;
+        }
+
     </style>
 </head>
 <body>
     <h1>Aplicativo em execução</h1>
-    <p>O aplicativo está sendo executado no servidor Nginx dentro do Docker Compose.</p>
+    <p><strong> Aplicativo está sendo executado no servidor Nginx dentro do Docker Compose.</strong></p>
+
+    <div class="center-image">
+        <img src="./pngwing.com.png" alt="Logo Nginx">
+    </div>
 </body>
 </html>
